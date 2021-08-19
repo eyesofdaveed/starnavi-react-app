@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import HoverSquares from "./components/hoverSquares/HoverSquares";
+import Modes from "./components/mode/Modes";
+import Table from "./components/table/Table";
+import { useState } from "react";
 
 function App() {
+  const [mode, setMode] = useState("");
+  const [hoverBoard, setHoverBoard] = useState([]);
+
+  /* Pass to the display board the mode that was chosen in Modes component */
+  const passModeToTable = (selectedMode) => {
+    selectedMode && setMode(parseInt(selectedMode) + 1);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="appWrapper">
+      <div className="container">
+        <div className="leftColumn">
+          <Modes handleStart={passModeToTable} />
+          {mode && mode !== 0 && (
+            <Table mode={mode} setHoverBoard={setHoverBoard} />
+          )}
+        </div>
+        <HoverSquares mode={mode} hoverBoard={hoverBoard} />
+      </div>
     </div>
   );
 }

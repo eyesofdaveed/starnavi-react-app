@@ -1,0 +1,22 @@
+.mode {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.modeSelect {
+    padding: 5px;
+    width: 150px;
+    margin: 10px;
+}
+
+.modeSelect:focus {
+    outline: none;
+}
+
+.submitModeButton {
+    background-color:  rgb(31, 31, 255);
+    padding: 7px 15px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
