@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/starnavi-react-app/static/css/main.944f7908.chunk.css",
+    "main.js": "/starnavi-react-app/static/js/main.7d91218e.chunk.js",
+    "main.js.map": "/starnavi-react-app/static/js/main.7d91218e.chunk.js.map",
+    "runtime-main.js": "/starnavi-react-app/static/js/runtime-main.f76a7391.js",
+    "runtime-main.js.map": "/starnavi-react-app/static/js/runtime-main.f76a7391.js.map",
+    "static/js/2.08e01f15.chunk.js": "/starnavi-react-app/static/js/2.08e01f15.chunk.js",
+    "static/js/2.08e01f15.chunk.js.map": "/starnavi-react-app/static/js/2.08e01f15.chunk.js.map",
+    "static/js/3.96cc73ff.chunk.js": "/starnavi-react-app/static/js/3.96cc73ff.chunk.js",
+    "static/js/3.96cc73ff.chunk.js.map": "/starnavi-react-app/static/js/3.96cc73ff.chunk.js.map",
+    "index.html": "/starnavi-react-app/index.html",
+    "static/css/main.944f7908.chunk.css.map": "/starnavi-react-app/static/css/main.944f7908.chunk.css.map",
+    "static/js/2.08e01f15.chunk.js.LICENSE.txt": "/starnavi-react-app/static/js/2.08e01f15.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f76a7391.js",
+    "static/js/2.08e01f15.chunk.js",
+    "static/css/main.944f7908.chunk.css",
+    "static/js/main.7d91218e.chunk.js"
+  ]
+}
